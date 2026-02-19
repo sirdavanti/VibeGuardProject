@@ -1,0 +1,23 @@
+# Secrets (CRITICAL)
+.env
+.env.local
+
+# Dependencies
+node_modules/
+backend/node_modules/
+vibeguard/node_modules/
+
+# Build and Logs
+dist/
+dist-ssr/
+build/
+logs
+*.log
+npm-debug.log*
+
+# Editor and OS
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+.idea/
+*.sw?
